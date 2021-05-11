@@ -49,7 +49,9 @@ public class HomeWorkTvnet {
             }
         }
 
+
         System.out.println("Задание 4");
+
 
         List<WebElement> allItems = driver.findElements(ITEM_HEADLINE);
         for (int i = 0; i < allItems.size(); i++) {
@@ -58,7 +60,9 @@ public class HomeWorkTvnet {
             System.out.println(withOutComments);
         }
 
+
         System.out.println("Задание 5");
+
 
         List<WebElement> itemsFindComments = driver.findElements(ITEM_HEADLINE);
         //Map<String, Integer> linkedTitleWithComments = new HashMap<>();
